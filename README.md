@@ -68,7 +68,7 @@ Perplexity = e−N1​∑i=1N​logp(wi​∣wi−1​)
 └── README.md                  # Project documentation
 
 📬 Contact
-LinkedIn: https://www.linkedin.com/in/manisha-Walunj
+LinkedIn: https://www.linkedin.com/in/manisha-walunj
 
 GitHub: https://github.com/manishawalunj
 
