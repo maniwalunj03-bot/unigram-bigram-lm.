@@ -1,31 +1,22 @@
-# unigram-bigram-lm
+# Unigram-Bigram Language Model
 
-**Simple Unigram and Bigram Language Model with Laplace smoothing and perplexity calculation in Python.**
-
----
+A simple **Unigram and Bigram Language Model** implemented in Python with Laplace smoothing and perplexity calculation.  
 
 ## 📌 Features
-- Tokenization with `<s>` (start) and `</s>` (end) markers  
+- Tokenization with `<s>` and `</s>` markers  
 - Unigram & Bigram frequency counts  
 - Laplace (add-one) smoothing  
 - Perplexity and average negative log-likelihood calculation  
 - Sentence probability evaluation  
-- Built from scratch using only Python standard libraries (`collections`, `math`)  
+- Uses only Python standard libraries  
 
----
-
-## 📖 Example Corpus
+📖 Example Corpus
 The cat sat on the mat
 the dog sat on the log
 the cat saw the dog
 the dog chased the cat
 
-yaml
-Copy code
-
----
-
-## 📊 Example Output
+📊 Example Output
 Vocabulary: 11
 Unigram counts: {'<s>': 4, 'The': 1, 'cat': 3, 'sat': 2, ...}
 Bigram counts: {('<s>', 'The'): 1, ('The', 'cat'): 1, ...}
@@ -36,57 +27,25 @@ Bigram model -> avg -log-likelihood (nats/token): 2.0463, perplexity: 7.7400
 Log-prob (bigram) of test sentence: -9.6312
 Probability (bigram) of test sentence: 6.55e-05
 
-yaml
-Copy code
-
----
-
-## 🚀 How to Run
-```bash
-# Clone the repo
+🚀 How to Run
 git clone https://github.com/YourUsername/unigram-bigram-lm.git
 cd unigram-bigram-lm
 
 # Run the script
 python unigram_bigram.py
+
 📝 Takeaways
+
 Unigram and Bigram models are the foundation of modern NLP
 
 Perplexity measures how well a model predicts unseen text
 
-These concepts extend into deep learning models like GPT
+These ideas extend to deep learning models like GPT
 
 📈 Next Steps
-Extend to trigram models
 
-Train on larger corpus (e.g., Wikipedia subset)
+Extend to Trigram models
 
-Compare results with modern pre-trained models
+Train on a larger corpus
 
-yaml
-Copy code
-
-5. Scroll down → **Commit changes** → choose “Commit directly to `main` branch.”  
-
----
-
-⚠️ **Important Tip:**  
-Do **not** copy from the chat preview box that shows “Copy code” button. Instead, click inside, press **Ctrl+A → Ctrl+C**, then paste directly in GitHub. That ensures you only paste the **raw Markdown**.  
-
----
-
-👉 Would you like me to show you how to delete the **current broken README.md** and upload this clean one instead?
-
-
-
-
-
-
-
-Ask ChatGPT
-
-
-
-
-
-ChatGP
+Compare with pre-trained transformer models
