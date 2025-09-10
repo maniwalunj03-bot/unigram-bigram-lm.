@@ -25,40 +25,50 @@
 
 ## 📊 Example Output
 Vocabulary: 11
+
 Unigram counts: {'<s>': 4, 'The': 1, 'cat': 3, 'sat': 2, ...}
+
 Bigram counts: {('<s>', 'The'): 1, ('The', 'cat'): 1, ...}
 
 Unigram model -> avg -log-likelihood (nats/token): 2.3607, perplexity: 10.6007
+
 Bigram model -> avg -log-likelihood (nats/token): 2.0463, perplexity: 7.7400
 
 Log-prob (bigram) of test sentence: -9.6312
+
 Probability (bigram) of test sentence: 6.55e-05
 
 
 ---
 
 ## 🚀 How to Run
+
 ```bash
 # Clone the repo
+
 git clone https://github.com/YourUsername/unigram-bigram-lm.git
+
 cd unigram-bigram-lm
 
 # Run the script
+
 python unigram_bigram.py
 
 📝 Takeaways
+
 Unigram and Bigram models are the foundation of modern NLP
+
 Perplexity measures how well a model predicts unseen text
+
 These concepts extend into deep learning models like GPT
 
 📈 Next Steps
+
 Extend to trigram models
+
 Train on larger corpus (e.g., Wikipedia subset)
+
 Compare results with modern pre-trained models
 
 
 ---
-📊 Results
-Model	Avg -   Log Likelihood (nats/token)	    Perplexity
-Unigram	         2.3607	                       10.6007
-Bigram           2.0463	                       7.7400
