@@ -103,26 +103,4 @@ print("Log-prob (bigram) of test sentence: {}"
 print()
 print("Probability (bigram) of test sentence: {}"
       .format(math.exp(sequence_logprob(test_sent, model="bigram"))))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             
